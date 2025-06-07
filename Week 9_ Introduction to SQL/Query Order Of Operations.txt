@@ -1,0 +1,13 @@
+SQL executes queries in this logical order:
+
+    FROM
+
+    WHERE
+
+    GROUP BY
+
+    HAVING ⬅️ filtering grouped rows
+
+    SELECT ⬅️ aliases (like COUNT(*) AS total) are created here
+
+    ORDER BY
